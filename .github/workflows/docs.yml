@@ -1,4 +1,4 @@
-name: docs
+name: Deploy
 
 on:
     push:
@@ -25,4 +25,4 @@ jobs:
                   target_branch: gh-pages
                   build_dir: docs/.vuepress/dist
               env:
-                  GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+                  GITHUB_TOKEN: ${{ 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 }}
