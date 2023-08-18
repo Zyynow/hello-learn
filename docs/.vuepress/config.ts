@@ -55,7 +55,7 @@ export default defineUserConfig({
         children: [
           // SidebarItem
           {
-            text: 'github',
+            text: 'git',
             link: 'https://github.com',
           },
         ],
