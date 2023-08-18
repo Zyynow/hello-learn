@@ -20,5 +20,19 @@ export default defineUserConfig({
           // 字符串 - 页面文件路径
           '/bar/README.md',
         ],
+        sidebar: [
+          // SidebarItem
+          {
+            text: 'Foo',
+            link: '/',
+            children: [
+              // SidebarItem
+              {
+                text: 'github',
+                link: 'https://github.com',
+              },
+            ],
+          },
+        ],
       }),
 });
