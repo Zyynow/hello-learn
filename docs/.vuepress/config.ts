@@ -1,6 +1,3 @@
-import { defineUserConfig } from "vuepress";
-
-
 module.exports ={
     base: "/hello-learn/", // github仓库名
     title: 'Hello Learning',
