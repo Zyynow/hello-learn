@@ -1,22 +1,24 @@
-module.exports ={
+import { defaultTheme, defineUserConfig } from "vuepress";
+
+export default defineUserConfig({
     base: "/hello-learn/", // github仓库名
     title: 'Hello Learning',
     description: 'Just a lifelong learning',
-    themeConfig:{
+    theme: defaultTheme({
         // Navigation bar
         navbar: [
-            { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/guide/' },
-            { text: 'External', link: 'https://google.com' },
-            {
-              text: 'Languages',
-              ariaLabel: 'Language Menu',
-              items: [
-                { text: 'English', link: '/' },
-                { text: 'Chinese', link: '/' },
-                { text: 'Japanese', link: '/' }
-              ]
-            }
-          ],
-      },
-};
+          // NavbarItem
+          {
+            text: 'Foo',
+            link: '/foo/',
+          },
+          // NavbarGroup
+          {
+            text: 'Group',
+            children: ['/group/foo.md', '/group/bar.md'],
+          },
+          // 字符串 - 页面文件路径
+          '/bar/README.md',
+        ],
+      }),
+});
