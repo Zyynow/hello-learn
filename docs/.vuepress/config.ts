@@ -46,6 +46,18 @@ export default defineUserConfig({
             text: 'Array',
             link: '/ds/array.md',
           },
+          {
+            text: 'Linked List',
+            link: '/ds/linked.md',
+          },
+          {
+            text: 'Queue',
+            link: '/ds/queue.md',
+          },
+          {
+            text: 'Stack',
+            link: '/ds/stack.md',
+          },
         ],
       }),
 });
