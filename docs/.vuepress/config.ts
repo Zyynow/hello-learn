@@ -17,6 +17,15 @@ export default defineUserConfig({
             text: 'Group',
             children: ['/group/foo.md', '/group/bar.md'],
           },
+          {
+            text: 'Languages',
+            ariaLabel: 'Language Menu',
+            children: [
+              { text: 'English', link: '/' },
+              { text: 'Chinese', link: '/' },
+              { text: 'Japanese', link: '/' },
+            ],
+          },
           // 字符串 - 页面文件路径
           '/bar/README.md',
         ],
