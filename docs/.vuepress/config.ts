@@ -42,6 +42,10 @@ export default defineUserConfig({
               },
             ],
           },
+          {
+            text: 'Array',
+            link: '/ds/array.md',
+          },
         ],
       }),
 });
