@@ -51,7 +51,7 @@ export default defineUserConfig({
       },
       {
         text: 'Voo',
-        link: '/',
+        link: '/Voo/',
         children: [
           // SidebarItem
           {
