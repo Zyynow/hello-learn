@@ -1,10 +1,11 @@
 import { defineUserConfig } from "vuepress";
 
-export default defineUserConfig({
+
+module.exports ={
     base: "/hello-learn/", // github仓库名
     title: 'Hello Learning',
     description: 'Just a lifelong learning',
-    theme: defaultTheme({
+    themeConfig:{
         // Navigation bar
         navbar: [
             { text: 'Home', link: '/' },
@@ -20,5 +21,5 @@ export default defineUserConfig({
               ]
             }
           ],
-      }),
-});
+      },
+};
