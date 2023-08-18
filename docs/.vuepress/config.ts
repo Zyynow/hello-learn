@@ -5,6 +5,7 @@ export default defineUserConfig({
     title: 'Hello Learning',
     description: 'Just a lifelong learning',
     theme: defaultTheme({
+        // Navigation bar
         navbar: [
             { text: 'Home', link: '/' },
             { text: 'Guide', link: '/guide/' },
