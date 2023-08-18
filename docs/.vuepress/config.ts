@@ -1,9 +1,16 @@
 import { defaultTheme, defineUserConfig } from "vuepress";
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 
 export default defineUserConfig({
     base: "/hello-learn/", // github仓库名
     title: 'Hello Learning',
     description: 'Just a lifelong learning',
+
+    plugins: [
+      backToTopPlugin(),
+    ],
+
+
     theme: defaultTheme({
         // Navigation bar
         navbar: [
