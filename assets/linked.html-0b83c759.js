@@ -1,0 +1,1 @@
+import{_ as t,o as l,c as a,a as e,b as n}from"./app-1ebbceed.js";const o={},s=e("h1",{id:"hello-linked-list",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#hello-linked-list","aria-hidden":"true"},"#"),n(" Hello Linked List")],-1),c=[s];function i(d,r){return l(),a("div",null,c)}const h=t(o,[["render",i],["__file","linked.html.vue"]]);export{h as default};

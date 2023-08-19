@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8b978ce2","path":"/ds/queue.html","title":"Hello Queue","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1692416418000,"contributors":[{"name":"Zyynow","email":"128598666+Zyynow@users.noreply.github.com","commits":1}]},"filePathRelative":"ds/queue.md"}');export{e as data};

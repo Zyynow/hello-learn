@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-9e154fce","path":"/ds/linked.html","title":"Hello Linked List","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1692416418000,"contributors":[{"name":"Zyynow","email":"128598666+Zyynow@users.noreply.github.com","commits":1}]},"filePathRelative":"ds/linked.md"}');export{e as data};
